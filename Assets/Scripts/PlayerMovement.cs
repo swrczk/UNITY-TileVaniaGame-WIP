@@ -95,7 +95,6 @@ public class PlayerMovement : MonoBehaviour
 
    void Jump()
    {
-      Debug.Log("Jump Player");
       rgBody.velocity += new Vector2(0f, jumpForce);
    }
 
